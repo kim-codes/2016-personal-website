@@ -27,7 +27,7 @@ Tags: one-page, single-page, portfolio, custom-colors, post-formats, responsive,
 ==================================================================*/
 
 body {
-    background-color: #2B2C30;
+    background-color: black;
 	font-family: 'Ubuntu', 'Arial', sans-serif;
     line-height: 1.5;
     color: #ddd;
@@ -800,6 +800,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-image: url("../img/parallax/twitter.jpg");
 	padding-bottom: 100px;
 	padding-top: 80px;
+  text-align: center;
 }
 
 .twitter-bird span {
@@ -814,6 +815,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .twitter-bird span i {
     line-height: 90px;
+    text-align: center;
+    display: block;
 }
 
 .tweet {
@@ -1619,4 +1622,16 @@ blockquote {
 .form-group:last-child,
 .form-group:last-child input {
   margin: 0;
+}
+
+
+
+/*=================================================================
+	Social Medias
+==================================================================*/
+
+#social-medias{
+  text-align: center;
+  width: 175px;
+  float: left;
 }
