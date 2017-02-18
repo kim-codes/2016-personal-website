@@ -62,7 +62,7 @@ a, a:focus, a:hover {
 }
 
 a:focus, a:hover {
-    color: #B7355A;
+    color: #E05953;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn-green {
-    background-color: #B7355A;
+    background-color: #E05953;
 }
 
 .btn-green:focus,
@@ -107,11 +107,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn-transparent:focus {
     background-color: transparent;
-    border-color: #B7355A;
+    border-color: #E05953;
 }
 
 .btn-transparent:hover {
-    background-color: #B7355A;
+    background-color: #E05953;
 	border: 1px solid transparent;
     color: #fff;
 }
@@ -175,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
 }
 
 .title h2 {
@@ -186,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .color {
-    color: #B7355A;
+    color: #E05953;
 }
 
 .sub-title {
@@ -302,12 +302,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-inverse .navbar-nav > li.current > a {
-    color: #B7355A;
+    color: #E05953;
     background-color: #2f3238;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover {
-    color: #B7355A;
+    color: #E05953;
 }
 
 
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #about {
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .icon-box {
@@ -388,8 +388,8 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #main-features {
-    padding: 70px 0;
-    background: #B7355A;
+    padding: 40px 0;
+    background: #E05953;
 }
 
 .feature-media {
@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #counter {
     background-image: url(../img/parallax/city.jpg);
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .counters-item {
@@ -442,11 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #services {
-    padding: 70px 0 100px;
-}
-
-#services .title {
-    padding-bottom: 125px;
+    padding: 40px 0 100px;
 }
 
 .service-block {
@@ -501,7 +497,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 100%;
 	height: 2px;
-	background: #B7355A;
+	background: #E05953;
 	content: '';
 
 	-webkit-transition: top 0.3s;
@@ -516,7 +512,7 @@ h1, h2, h3, h4, h5, h6 {
 	left: 0;
 	width: 2px;
 	height: 2px;
-	background: #B7355A;
+	background: #E05953;
 	content: '';
 
 	-webkit-transition: height 0.3s;
@@ -617,7 +613,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #team-skills {
-    padding: 70px 0;
+    padding: 40px 0;
     background-image: url(../img/parallax/skills.jpg);
 }
 
@@ -662,7 +658,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #our-team {
-    padding: 70px 0;
+    padding: 4px 0;
 }
 
 .about-team {
@@ -775,7 +771,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mask ul li a:hover {
-    background-color: #B7355A;
+    background-color: #E05953;
     border: 1px solid transparent;
 }
 
@@ -792,9 +788,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .twitter-bird span {
-    border: 2px solid #B7355A;
+    border: 2px solid #E05953;
     border-radius: 50px;
-    color: #B7355A;
+    color: #E05953;
     display: inline-block;
     margin-bottom: 50px;
     height: 90px;
@@ -812,7 +808,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .tweet a {
-    color: #B7355A;
+    color: #E05953;
 }
 
 /*=================================================================
@@ -820,7 +816,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #pricing {
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .pricing {
@@ -833,7 +829,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .price-title > h3 {
-    color: #B7355A;
+    color: #E05953;
     font-family: Oswald;
     font-weight: 700;
     margin: 0 0 10px;
@@ -847,7 +843,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .price-title .value {
-	color: #B7355A;
+	color: #E05953;
 	font-size: 30px;
 }
 
@@ -878,7 +874,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #testimonial {
     background-image: url(../img/parallax/bicycle.jpg);
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 #testimonials .owl-wrapper-outer {
@@ -935,7 +931,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-profile li a:hover {
-	color: #B7355A;
+	color: #E05953;
 }
 
 .owl-pagination,
@@ -961,7 +957,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .owl-controls .owl-page.active span,
 .owl-controls .owl-page:hover span {
-    background-color: #B7355A;
+    background-color: #E05953;
     border: 2px solid transparent;
 }
 
@@ -1005,7 +1001,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #blog {
     padding-bottom: 110px;
-    padding-top: 70px;
+    padding-top: 40px;
 }
 
 .note {
@@ -1037,7 +1033,7 @@ h1, h2, h3, h4, h5, h6 {
 ==================================================================*/
 
 #contact-us {
-    padding: 70px 0 0;
+    padding: 40px 0 0;
 }
 
 .contact-form {
@@ -1053,7 +1049,7 @@ h1, h2, h3, h4, h5, h6 {
 .contact-form input:hover,
 .contact-form textarea:hover,
 #contact-submit:hover {
-    border-color: #B7355A;
+    border-color: #E05953;
 }
 
 #contact-submit {
@@ -1095,7 +1091,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .success {
-    background-color: #B7355A;
+    background-color: #E05953;
     border-radius: 4px;
     color: #fff;
     display: none;
@@ -1167,7 +1163,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-icon > ul > li:hover a {
-    background-color: #B7355A;
+    background-color: #E05953;
 
 	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
@@ -1209,8 +1205,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #scrollUp:hover {
-    background-color: #B7355A;
-    border: 1px solid #B7355A;
+    background-color: #E05953;
+    border: 1px solid #E05953;
 }
 
 
@@ -1225,9 +1221,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .blog-icon {
-    border: 1px solid #B7355A;
+    border: 1px solid #E05953;
     border-radius: 50%;
-    color: #B7355A;
+    color: #E05953;
     display: inline-block;
     padding: 16px 20px;
 }
@@ -1317,7 +1313,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-meta a:hover {
-	color: #B7355A;
+	color: #E05953;
 }
 
 .post-excerpt .more {
@@ -1331,7 +1327,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .post-excerpt .more a:hover {
-    background-color: #B7355A;
+    background-color: #E05953;
     color: #fff;
 }
 
@@ -1379,9 +1375,9 @@ aside.widget {
 }
 
 .tab-post-nav li.active a {
-	border-top: 3px solid #B7355A;
+	border-top: 3px solid #E05953;
 	background-color: #2F383D;
-	color: #B7355A;
+	color: #E05953;
 }
 
 .tab-pane.active .clearfix:first-child {
@@ -1399,7 +1395,7 @@ aside.widget {
 }
 
 .tab-excerpt h4 a:hover {
-	color: #B7355A;
+	color: #E05953;
 }
 
 .tab-post-nav li a {
@@ -1421,7 +1417,7 @@ aside.widget {
 
 .categories > li:hover a {
     padding-left: 10px;
-    color: #B7355A;
+    color: #E05953;
 }
 
 .categories > li:last-child {
@@ -1442,7 +1438,7 @@ aside.widget {
 }
 
 .widget-content .tag:hover {
-    background-color: #B7355A;
+    background-color: #E05953;
     color: #fff;
 }
 
@@ -1478,7 +1474,7 @@ aside.widget {
 
 .post-pagination ul li a:hover,
 .post-pagination ul li.active a {
-    background-color: #B7355A;
+    background-color: #E05953;
     color: #fff;
 }
 
@@ -1493,7 +1489,7 @@ aside.widget {
 }
 
 blockquote {
-    border-left: 5px solid #B7355A;
+    border-left: 5px solid #E05953;
     font-style: italic;
     line-height: 22px;
     margin: 20px 0;
@@ -1507,7 +1503,7 @@ blockquote {
 }
 
 .next-prev a:hover {
-    color: #B7355A;
+    color: #E05953;
 }
 
 .prev-post i {
@@ -1578,7 +1574,7 @@ blockquote {
 }
 
 .author-comment cite a:hover, .replay:hover {
-    color: #B7355A;
+    color: #E05953;
     text-decoration: underline;
 }
 
@@ -1604,7 +1600,7 @@ blockquote {
 }
 
 #comment-form .form-control:hover {
-    border-color: #B7355A;
+    border-color: #E05953;
 }
 
 .form-group:last-child,
@@ -1630,5 +1626,9 @@ blockquote {
 ==================================================================*/
 
 #mission{
+  text-align: center;
+}
+
+#about-section{
   text-align: center;
 }
