@@ -1632,3 +1632,9 @@ blockquote {
 #about-section{
   text-align: center;
 }
+
+#center-btn{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
