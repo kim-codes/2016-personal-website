@@ -5,6 +5,10 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Meghna One page parallax responsive HTML Template ">
+
+        <meta name="author" content="Muhammad Morshed">
+
         <title>kimcodes</title>
 
 		<!-- Mobile Specific Meta
@@ -45,61 +49,34 @@
 		<!-- Modernizer Script for old Browsers -->
     <script src="https://use.fontawesome.com/d31e2f240a.js"></script>
 
+    <!-- TweenMax -->
+    <!--CDN link for  TweenMax-->
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+
         <script src="js/modernizr-2.6.2.min.js"></script>
-
-        <script>
-            function openNav() {
-                document.getElementById("mainMenuNav").style.height = "100%";
-            }
-
-            function closeNav() {
-                document.getElementById("mainMenuNav").style.height = "0%";
-            }
-        </script>
 
     </head>
 
     <body id="body">
-	    <!--
-	    Start Preloader
-	    ==================================== -->
-		<div id="loading-mask">
-			<div class="loading-img">
-				<img alt="Meghna Preloader" src="img/preloader.gif"  />
-			</div>
-		</div>
-        <!--End Preloader  -->
-
-    <!-- main menu navigation overlay -->
-        <div id="mainMenuNav" class="overlay">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <div class="overlay-content">
-            <h1><u>Menu</u></h1>
-            <a href="framework.html">Framework</a>
-            <a href="blog.html">Documentation</a>
-            <a href="#">Artifacts</a>
-          </div>
-        </div>
-
-        <span id="navigation-btn" style="font-size:30px;cursor:pointer;color:#E05953;position:fixed;top:0%;right:2%;z-index:50" onclick="openNav()">&#9776;</span>
-     <!-- end of overlay -->
 
         <!--
         Welcome Slider
         ==================================== -->
-		  <section id="home">
+		<section id="home">
 
-            <div id="slitSlider" class="sl-slider-wrapper">
+        <div id="slitSlider" class="sl-slider-wrapper">
 				<div class="sl-slider">
 
 					<!-- single slide item -->
 					<div class="sl-slide" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
 						<div class="sl-slide-inner">
-							<div class="bg-img bg-img-1"></div>
+							<div class="bg-img bg-img-2"></div>
 						<div class="carousel-caption">
 							<div>
 								<img class="wow fadeInUp" src="img/kimcodes-logo.png" alt="kimcodes">
-								<h2 data-wow-duration="500ms" data-wow-delay="500ms" class="heading animated fadeInRight">Passionate Developer in Montreal.</h2>
+								<h4 data-wow-duration="500ms" data-wow-delay="500ms" class="heading animated fadeInRight">What you do after you create your content is what truly counts. – Gary Vaynerchuk</h4>
+                				<img class="wow fadeInUp" src="img/arrows.png" alt="kimcodes">
+                <!-- arrow pointing down -->
 							</div>
 						</div>
 						</div>
@@ -113,113 +90,28 @@
 		<!--/#home section-->
 
     <!--
-		Intro Section
-		==================================== -->
-		<section id="about" class="bg-one">
-			<div class="container">
-				<div class="row">
-
-					<!-- section title -->
-					<div class="title text-center fadeIn" data-wow-duration="1500ms">
-						<h2>who I am <span class="color">and</span> what I do</h2>
-						<div class="border"></div>
-					</div>
-					<!-- /section title -->
-          <div id="about-section">
-            <h2 class="heading animated fadeInRight">24 year old Canadian developer and student. </h2>
-            <h3>Since I was young, I loved disassembling electronics and solving puzzles. Technology is much more than a passion for me. I have a natural need to create, imagine, and build. </h3>
-
-            <div class="col-md-6 feature-desc wow fadeInUp animated">
-              <a href="framework.html" class="btn btn-transparent">More About Me!</a>  <a href="blog.html" class="btn btn-transparent">Posts By Me!</a>
-            </div>
-          </div>  <!-- end about section -->
-				</div> 		<!-- End row -->
-			</div>   	<!-- End container -->
-		</section>   <!-- End section -->
-
-
-		<!--
-		Start About Section
-		==================================== -->
-		<section id="main-features" class="bg-one">
-			<div class="container">
-				<div class="row">
-
-					<!-- section title -->
-					<div class="title text-center wow fadeIn" data-wow-duration="1500ms" >
-						<h2>the 3 Cs</h2>
-						<div class="border"></div>
-					</div>
-					<!-- /section title -->
-
-					<!-- About item -->
-					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" >
-						<div class="wrap-about">
-							<div class="icon-box">
-								<i class="fa fa-superpowers fa-4x"></i>
-							</div>
-							<!-- Express About Yourself -->
-							<div class="about-content text-center">
-								<h3 class="ddd">Character</h3>
-								<p>"Maybe the journey isn’t so much about becoming anything. Maybe it’s about unbecoming everything that isn’t you so you can be who you were meant to be in the first place." — Unknown</p>
-							</div>
-						</div>
-					</div>
-					<!-- End About item -->
-
-					<!-- About item -->
-					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="250ms">
-						<div class="wrap-about">
-							<div class="icon-box">
-								<i class="fa fa-paint-brush fa-4x"></i>
-							</div>
-							<!-- Express About Yourself -->
-							<div class="about-content text-center">
-								<h3>Creativity</h3>
-								<p>Créer, c'est vivre deux fois.</p>
-							</div>
-						</div>
-					</div>
-					<!-- End About item -->
-
-					<!-- About item -->
-					<div class="col-md-4 text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="500ms">
-						<div class="wrap-about kill-margin-bottom">
-							<div class="icon-box">
-								<i class="fa fa-users fa-4x"></i>
-							</div>
-							<!-- Express About Yourself -->
-							<div class="about-content text-center">
-                <h3>Community</h3>
-                <p>"The importance of community is not in the crusade, but in how you unify people to march forward together, side by side." - Jono Bacon. <u>The Art of Community</u>.</p>
-							</div>
-						</div>
-					</div>
-					<!-- End About item -->
-
-				</div> 		<!-- End row -->
-			</div>   	<!-- End container -->
-		</section>   <!-- End section -->
-
-    <!-- Photo Insert
+    Start Blog Section
     =========================================== -->
 
-    <section id="testimonial" class="parallax-section">
+    <section id="blog" class="bg-one">
       <div class="container">
         <div class="row">
 
-          <div class="col-md-3 col-sm-6 col-xs-12 text-center wow fadeInDown" data-wow-duration="500ms">
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+          <!-- section title -->
+          <div class="title text-center wow fadeInDown">
+            <h2> Latest <span class="color">Posts</span></h2>
+            <div class="border"></div>
           </div>
+          <!-- /section title -->
 
-          </div> 		<!-- end col lg 12 -->
-        </div>	    <!-- End row -->
-    </section>    <!-- End Section -->
 
+
+
+        </div> <!-- end row -->
+      </div> <!-- end container -->
+    </section> <!-- end section -->
+
+    <!-- footer -->
 
 		<footer id="footer" class="bg-one">
 			<div class="container">
@@ -229,8 +121,8 @@
 						<!-- Footer Social Links -->
 						<div class="social-icon">
 							<ul>
-                <li><a href="https://github.com/kim-codes"><i class="fa fa-github"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/kimcodes"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="https://github.com/kim-codes"><i class="fa fa-github"></i></a></li>
+								<li><a href="https://www.linkedin.com/in/kimcodes"><i class="fa fa-linkedin"></i></a></li>
                 <li><a href="https://twitter.com/NoelKM"><i class="fa fa-twitter"></i></a></li>
                 <li><a href="https://medium.com/@kimcodes"><i class="fa fa-pencil"></i></a></li>
 							</ul>
