@@ -62,10 +62,33 @@
 		  ga('send', 'pageview');
 
 		</script>
+    <script>
+        function openNav() {
+            document.getElementById("mainMenuNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("mainMenuNav").style.height = "0%";
+        }
+    </script>
 
     </head>
 
     <body id="body">
+
+
+          <!-- main menu navigation overlay -->
+              <div id="mainMenuNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                  <h1><u>Menu</u></h1>
+                  <a href="index.html">Home</a>
+                  <a href="blog.html">Documentation</a>
+                  <a href="#">Artifacts</a>
+                </div>
+              </div>
+
+              <span id="navigation-btn" style="font-size:30px;cursor:pointer;color:#E05953;position:fixed;top:0%;right:2%;z-index:50" onclick="openNav()">&#9776;</span>
 
         <!--
         Welcome Slider
